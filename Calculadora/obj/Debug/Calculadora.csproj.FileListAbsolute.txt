@@ -1,0 +1,23 @@
+C:\Users\lipeb\source\repos\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\lipeb\source\repos\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\lipeb\source\repos\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\lipeb\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.csprojAssemblyReference.cache
+C:\Users\lipeb\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.calculadoraWd.resources
+C:\Users\lipeb\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+C:\Users\lipeb\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+C:\Users\lipeb\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\lipeb\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\lipeb\source\repos\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Projetos C#\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Projetos C#\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Projetos C#\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Projetos C#\Calculadora\Calculadora\obj\Debug\Calculadora.csprojAssemblyReference.cache
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Projetos C#\Calculadora\Calculadora\obj\Debug\Calculadora.calculadoraWd.resources
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Projetos C#\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Projetos C#\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Projetos C#\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Projetos C#\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Projetos C#\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\Aluno\Desktop\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\Aluno\Desktop\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\Aluno\Desktop\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
