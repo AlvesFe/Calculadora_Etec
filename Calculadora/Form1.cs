@@ -24,79 +24,125 @@ namespace Calculadora
         private void One_Click(object sender, EventArgs e)
         {
             numBox1.Text = numBox1.Text + "1";
+            resultadoBox.Text += "1";
         }
 
         private void Two_Click(object sender, EventArgs e)
         {
             numBox1.Text = numBox1.Text + "2";
+            resultadoBox.Text += "2";
         }
 
         private void Three_Click(object sender, EventArgs e)
         {
             numBox1.Text = numBox1.Text + "3";
+            resultadoBox.Text += "3";
         }
 
         private void Four_Click(object sender, EventArgs e)
         {
             numBox1.Text = numBox1.Text + "4";
+            resultadoBox.Text += "4";
         }
 
         private void Five_Click(object sender, EventArgs e)
         {
             numBox1.Text = numBox1.Text + "5";
+            resultadoBox.Text += "5";
         }
 
         private void Six_Click(object sender, EventArgs e)
         {
             numBox1.Text = numBox1.Text + "6";
+            resultadoBox.Text += "6";
         }
 
         private void Seven_Click(object sender, EventArgs e)
         {
             numBox1.Text = numBox1.Text + "7";
+            resultadoBox.Text += "7";
         }
 
         private void Eight_Click(object sender, EventArgs e)
         {
             numBox1.Text = numBox1.Text + "8";
+            resultadoBox.Text += "8";
         }
 
         private void Nine_Click(object sender, EventArgs e)
         {
             numBox1.Text = numBox1.Text + "9";
+            resultadoBox.Text += "9";
         }
 
         private void Zero_Click(object sender, EventArgs e)
         {
             numBox1.Text = numBox1.Text + "0";
+            resultadoBox.Text += "0";
         }
 
         private void Minus_Click(object sender, EventArgs e)
         {
-            valor1 = double.Parse(numBox1.Text);
-            operacao = '-';
-            numBox1.Clear();
+            if (numBox1.Text != "")
+            {
+                valor1 = double.Parse(resultadoBox.Text);
+                operacao = '-';
+                numBox1.Text += operacao;
+                resultadoBox.Clear();
+            }
+            else
+            {
+                numBox1.Text = "0";
+                valor1 = double.Parse(resultadoBox.Text);
+                operacao = '-';
+                numBox1.Text += operacao;
+                resultadoBox.Clear();
+            }
         }
 
         private void Multiply_Click(object sender, EventArgs e)
         {
-            valor1 = double.Parse(numBox1.Text);
-            operacao = 'x';
-            numBox1.Clear();
+            if (numBox1.Text != "")
+            {
+                valor1 = double.Parse(resultadoBox.Text);
+                operacao = 'x';
+                numBox1.Text += operacao;
+                resultadoBox.Clear();
+            }
+            else
+            {
+                numBox1.Text = "0";
+                valor1 = double.Parse(resultadoBox.Text);
+                operacao = 'x';
+                numBox1.Text += operacao;
+                resultadoBox.Clear();
+            }
         }
 
         private void Divide_Click(object sender, EventArgs e)
         {
-            valor1 = double.Parse(numBox1.Text);
-            operacao = '/';
-            numBox1.Clear();
+            if (numBox1.Text != "")
+            {
+                valor1 = double.Parse(resultadoBox.Text);
+                operacao = '/';
+                numBox1.Text += "÷";
+                resultadoBox.Clear();
+            }
+            else
+            {
+                numBox1.Text = "0";
+                valor1 = double.Parse(resultadoBox.Text);
+                operacao = '/';
+                numBox1.Text += "÷";
+                resultadoBox.Clear();
+            }
         }
 
         private void Equals_Click(object sender, EventArgs e)
         {
-            if (numBox1.Text != "")
+            if (resultadoBox.Text != "")
             {
-                valor2 = double.Parse(numBox1.Text);
+                valor2 = double.Parse(resultadoBox.Text);
 
                 switch (operacao)
                 {
@@ -124,6 +170,7 @@ namespace Calculadora
                         break;
                 }
                 numBox1.Text = valor1.ToString() + operacao.ToString() + valor2.ToString();
+                numBox1.Text += "="+result.ToString();
                 resultadoBox.Text = result.ToString();
             }
             else
@@ -142,7 +189,7 @@ namespace Calculadora
 
         private void Clear_Click(object sender, EventArgs e)
         {
-            numBox1.Clear();
+            resultadoBox.Clear();
         }
 
         private void ClearAll_Click(object sender, EventArgs e)
@@ -173,9 +220,21 @@ namespace Calculadora
 
         private void Plus_Click(object sender, EventArgs e)
         {
-            valor1 = double.Parse(numBox1.Text);
-            operacao = '+';
-            numBox1.Clear();
+            if (numBox1.Text != "")
+            {
+                valor1 = double.Parse(resultadoBox.Text);
+                operacao = '+';
+                numBox1.Text += operacao;
+                resultadoBox.Clear();
+            }
+            else
+            {
+                numBox1.Text = "0";
+                valor1 = double.Parse(resultadoBox.Text);
+                operacao = '+';
+                numBox1.Text += operacao;
+                resultadoBox.Clear();
+            }
         }
     }
 }

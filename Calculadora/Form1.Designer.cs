@@ -340,7 +340,7 @@
             this.numBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.numBox1.Size = new System.Drawing.Size(289, 67);
             this.numBox1.TabIndex = 0;
-            this.numBox1.Text = "";
+            this.numBox1.Text = "0";
             // 
             // resultadoBox
             // 
@@ -351,10 +351,9 @@
             this.resultadoBox.Location = new System.Drawing.Point(11, 77);
             this.resultadoBox.Name = "resultadoBox";
             this.resultadoBox.ReadOnly = true;
-            this.resultadoBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.resultadoBox.Size = new System.Drawing.Size(289, 61);
             this.resultadoBox.TabIndex = 26;
-            this.resultadoBox.Text = "";
+            this.resultadoBox.Text = "0";
             // 
             // calculadoraWd
             // 
