@@ -50,9 +50,7 @@
             this.minus = new System.Windows.Forms.Button();
             this.three = new System.Windows.Forms.Button();
             this.zero = new System.Windows.Forms.Button();
-            this.posneg = new System.Windows.Forms.Button();
             this.equals = new System.Windows.Forms.Button();
-            this.comma = new System.Windows.Forms.Button();
             this.numBox1 = new System.Windows.Forms.RichTextBox();
             this.resultadoBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
@@ -143,6 +141,7 @@
             this.delete.TabIndex = 7;
             this.delete.Text = "←";
             this.delete.UseVisualStyleBackColor = true;
+            this.delete.Click += new System.EventHandler(this.Delete_Click);
             // 
             // eight
             // 
@@ -289,44 +288,24 @@
             // 
             this.zero.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.zero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.zero.Location = new System.Drawing.Point(85, 515);
+            this.zero.Location = new System.Drawing.Point(12, 515);
             this.zero.Name = "zero";
-            this.zero.Size = new System.Drawing.Size(68, 68);
+            this.zero.Size = new System.Drawing.Size(141, 68);
             this.zero.TabIndex = 22;
             this.zero.Text = "0";
             this.zero.UseVisualStyleBackColor = false;
             this.zero.Click += new System.EventHandler(this.Zero_Click);
             // 
-            // posneg
-            // 
-            this.posneg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.posneg.Location = new System.Drawing.Point(11, 515);
-            this.posneg.Name = "posneg";
-            this.posneg.Size = new System.Drawing.Size(68, 68);
-            this.posneg.TabIndex = 21;
-            this.posneg.Text = "+/-";
-            this.posneg.UseVisualStyleBackColor = true;
-            // 
             // equals
             // 
             this.equals.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.equals.Location = new System.Drawing.Point(232, 515);
+            this.equals.Location = new System.Drawing.Point(159, 515);
             this.equals.Name = "equals";
-            this.equals.Size = new System.Drawing.Size(68, 68);
+            this.equals.Size = new System.Drawing.Size(141, 68);
             this.equals.TabIndex = 24;
             this.equals.Text = "=";
             this.equals.UseVisualStyleBackColor = true;
             this.equals.Click += new System.EventHandler(this.Equals_Click);
-            // 
-            // comma
-            // 
-            this.comma.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comma.Location = new System.Drawing.Point(159, 515);
-            this.comma.Name = "comma";
-            this.comma.Size = new System.Drawing.Size(68, 68);
-            this.comma.TabIndex = 23;
-            this.comma.Text = ",";
-            this.comma.UseVisualStyleBackColor = true;
             // 
             // numBox1
             // 
@@ -340,7 +319,7 @@
             this.numBox1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.numBox1.Size = new System.Drawing.Size(289, 67);
             this.numBox1.TabIndex = 0;
-            this.numBox1.Text = "0";
+            this.numBox1.Text = "";
             // 
             // resultadoBox
             // 
@@ -353,7 +332,7 @@
             this.resultadoBox.ReadOnly = true;
             this.resultadoBox.Size = new System.Drawing.Size(289, 61);
             this.resultadoBox.TabIndex = 26;
-            this.resultadoBox.Text = "0";
+            this.resultadoBox.Text = "";
             // 
             // calculadoraWd
             // 
@@ -365,9 +344,7 @@
             this.Controls.Add(this.resultadoBox);
             this.Controls.Add(this.numBox1);
             this.Controls.Add(this.zero);
-            this.Controls.Add(this.posneg);
             this.Controls.Add(this.equals);
-            this.Controls.Add(this.comma);
             this.Controls.Add(this.two);
             this.Controls.Add(this.one);
             this.Controls.Add(this.minus);
@@ -419,9 +396,7 @@
         private System.Windows.Forms.Button minus;
         private System.Windows.Forms.Button three;
         private System.Windows.Forms.Button zero;
-        private System.Windows.Forms.Button posneg;
         private System.Windows.Forms.Button equals;
-        private System.Windows.Forms.Button comma;
         private System.Windows.Forms.RichTextBox numBox1;
         private System.Windows.Forms.RichTextBox resultadoBox;
     }

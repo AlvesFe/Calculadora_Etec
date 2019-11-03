@@ -30,3 +30,13 @@ C:\Users\Aluno\Desktop\pa\Calculadora\obj\Debug\Calculadora.csprojResolveAssembl
 C:\Users\Aluno\Desktop\pa\Calculadora\obj\Debug\Calculadora.calculadoraWd.resources
 C:\Users\Aluno\Desktop\pa\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
 C:\Users\Aluno\Desktop\pa\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.Cache
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Github\C#\Calculadora_Etec\Calculadora\bin\Debug\Calculadora.exe.config
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Github\C#\Calculadora_Etec\Calculadora\bin\Debug\Calculadora.exe
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Github\C#\Calculadora_Etec\Calculadora\bin\Debug\Calculadora.pdb
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Github\C#\Calculadora_Etec\Calculadora\obj\Debug\Calculadora.csprojAssemblyReference.cache
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Github\C#\Calculadora_Etec\Calculadora\obj\Debug\Calculadora.calculadoraWd.resources
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Github\C#\Calculadora_Etec\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Github\C#\Calculadora_Etec\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.cache
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Github\C#\Calculadora_Etec\Calculadora\obj\Debug\Calculadora.csproj.CoreCompileInputs.cache
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Github\C#\Calculadora_Etec\Calculadora\obj\Debug\Calculadora.exe
+D:\lipeb\OneDrive - Etec Centro Paula Souza\Github\C#\Calculadora_Etec\Calculadora\obj\Debug\Calculadora.pdb
